@@ -1,0 +1,139 @@
+.abc {
+  background-image: url("project_1.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.form1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.loginformcard {
+  background-color: #e6e4eb;
+  border-radius: 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+.searchBox {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 25px;
+  color: #0505a9;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #0505a9;
+}
+
+.qrbutton {
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #0505a9;
+}
+
+.qrbutton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all ease-in 0.25s;
+}
+
+.searchBtn {
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #0505a9;
+}
+
+.searchBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all ease-in 0.25s;
+  background-color: #0505a9;
+}
+
+#login {
+  border-radius: 25px;
+  background-color: #0505a9;
+  color: white;
+}
+
+#login:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all ease-in 0.25s;
+}
+
+#signup {
+  border-radius: 25px;
+  background-color: #0505a9;
+  color: white;
+}
+
+#signup:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all ease-in 0.25s;
+}
+
+.formbtn {
+  border-radius: 25px;
+  background-color: #0505a9;
+  color: white;
+}
+
+.formbtn:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all ease-in 0.25s;
+  background-color: #0505a9;
+  color: white;
+}
+
+#mansub {
+  border-radius: 25px;
+  background-color: #0505a9;
+  color: white;
+}
+
+#mansub:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all ease-in 0.25s;
+  background-color: #0505a9;
+  color: white;
+}
+
+.nav-link {
+  /* background-color: #0505a9; */
+  padding: 10px !important;
+  border-radius: 25px;
+  margin-right: 15px;
+  color: #0505a9 !important;
+}
+
+.nav-link:hover {
+  transform: translateX(8px);
+  border-radius: 25px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: all ease-in 0.25s;
+  background-color: #0505a9;
+  color: white;
+}
+
+.forminput {
+  border-radius: 25px !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.formselect {
+  border-radius: 25px !important;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+.formlabel {
+  font-family: "Poppins", sans-serif;
+}
