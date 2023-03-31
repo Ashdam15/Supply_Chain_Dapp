@@ -61,10 +61,12 @@ $color="navbar-light orange darken-4";
                        
                         <label type="text" class="formlabel" for="options">Product Type:</label>
                         <select type="text" id="options" name="options">
-                          <option value="option1">Electronics</option>
-                          <option value="option2">Sneakers</option>
-                          <option value="option3">Watches</option>
-                          <option value="option4">Others</option>
+                        <option selected="true" style='display: none'></option>
+
+                          <option value="Electronics">Electronics</option>
+                          <option value="Sneakers">Sneakers</option>
+                          <option value="Watches">Watches</option>
+                          <option value="Others">Others</option>
                         </select> 
                       
                     </div>
@@ -138,11 +140,16 @@ $color="navbar-light orange darken-4";
     $('#form1').on('submit', function(event) {
         event.preventDefault(); // to prevent page reload when form is submitted
         prodname = $('#prodname').val();
-        username = $('#user').val(); 
-        prodname=prodname+"<br>Registered By: "+username;
+        username = $('#user').val();
+        description = $('#des').val();
+        price = $('#price').val();
+        type = $('#options').val(); 
+        prodname=prodname+"<br>Registered By: "+username+"<br>Description: "+description+"<br>Price: "+price+"<br>Type: "+type;
         console.log(prodname);
-        var today = new Date();
-        var thisdate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        var thisdate = Date("h:i:sa");
+
+        // var today = new Date();
+        // var thisdate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
         web3.eth.getAccounts().then(async function(accounts) {
           var receipt = await contract.methods.newItem(prodname, thisdate).send({ from: accounts[0], gas: 1000000 })

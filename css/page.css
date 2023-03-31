@@ -137,3 +137,8 @@
 .formlabel {
   font-family: "Poppins", sans-serif;
 }
+
+select#options {
+  width: 400px !important;
+  border-radius: 25px;
+}

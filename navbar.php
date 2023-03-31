@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="css/page.css">
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; width: 100%;z-index: 20;">
 <a class="navbar-brand" href="checkproduct.php">
-<img src="images/fibble.png" style="width: 30px;"> &nbsp
+<!-- <img src="images/fibble.png" style="width: 30px;"> &nbsp -->
 </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -35,9 +35,9 @@
     }
     }
     ?>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
     <a class="nav-link" id="aboutbtn"> About </a>
-    </li>
+    </li> -->
     </ul>
 
     <form class="form-inline">
